@@ -9,3 +9,14 @@
 .show-hide {
   width: 50px;
 }
+
+.center {
+  margin: 0 auto;
+}
+
+input[type="range"] {
+  transform: translateX(200px);
+}
+label {
+  transform: translateX(200px);
+}

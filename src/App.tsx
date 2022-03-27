@@ -6,6 +6,7 @@ import FontSizer from './components/FontSizer';
 import AlignMe from './components/AlignMe';
 import Clock from './components/Clock';
 import ChangeColor from './components/ChangeColor';
+import ColorSlider from './ColorSlider';
 
 function App() {
   
@@ -25,6 +26,8 @@ function App() {
     <Clock />
     <hr/>
     <ChangeColor />
+    <hr/>
+    <ColorSlider/>
 
     </>
   );
