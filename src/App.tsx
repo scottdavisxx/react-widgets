@@ -1,10 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Counter from './components/counter';
+import Toggle from './components/toggle';
 
 function App() {
+  
+
+
   return (
-    <h1 className='App'>React Widgets</h1>
+    <>
+    <Counter /> 
+    <hr></hr>
+    <Toggle/>
+
+    </>
   );
 }
 
