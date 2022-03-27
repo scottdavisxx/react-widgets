@@ -7,7 +7,7 @@ const Toggle = () => {
   return (
     <div>
       <h2 className="hidden-message">{show && 'Hidden Message' }</h2>
-      <button onClick={() => setShow(!show)}>{show ? 'Hide' : 'Show'}</button>
+      <button className="show-hide" onClick={() => setShow(!show)}>{show ? 'Hide' : 'Show'}</button>
     </div>
   )
 }

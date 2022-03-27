@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
-import Counter from './components/counter';
-import Toggle from './components/toggle';
+import Counter from './components/Counter';
+import Toggle from './components/Toggle';
 
 function App() {
   
