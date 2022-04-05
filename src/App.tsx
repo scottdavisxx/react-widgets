@@ -14,7 +14,7 @@ function App() {
 
   return (
     <>
-
+    <h1 className='App'>React Widgets</h1>
     <Counter /> 
     <hr/>
     <Toggle/>

@@ -5,12 +5,11 @@ const Counter = () => {
   const [count, setCount] = React.useState(0)
 
   return (
-    <>
-    <h1 className='App'>React Widgets</h1>
+    <div >
     <h2>{count}</h2>
     <button onClick={() => setCount(count - 1)}>Subtract</button>
     <button onClick={() => setCount(count + 1)}>Add</button>
-    </>
+    </div>
   )
 
 }
