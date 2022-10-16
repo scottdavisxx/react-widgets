@@ -1,0 +1,1 @@
+// Paste and print a simple example of props. 
