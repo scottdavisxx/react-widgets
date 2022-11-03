@@ -9,26 +9,22 @@ import ChangeColor from './components/ChangeColor';
 import ColorSlider from './ColorSlider';
 
 function App() {
-  
-
-
   return (
     <>
-    <h1 className='App'>React Widgets</h1>
-    <Counter /> 
-    <hr/>
-    <Toggle/>
-    <hr/>
-    <FontSizer />
-    <hr/>
-    <AlignMe />
-    <hr/>
-    <Clock />
-    <hr/>
-    <ChangeColor />
-    <hr/>
-    <ColorSlider/>
-
+      <h1 className='App'>React Widgets</h1>
+      <Counter />
+      <hr />
+      <Toggle />
+      <hr />
+      <FontSizer />
+      <hr />
+      <AlignMe />
+      <hr />
+      <Clock />
+      <hr />
+      <ChangeColor />
+      <hr />
+      <ColorSlider />
     </>
   );
 }
